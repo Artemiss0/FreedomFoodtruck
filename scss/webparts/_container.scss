@@ -1,8 +1,12 @@
 .container {
     width: 100%;
-
+ 
     &--white {
-        background-color: $color-black;
-        height: 50rem;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: $color-white;
+        height: auto;
+        border-radius: 1rem 1rem 0 0;
     }
 }

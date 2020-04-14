@@ -1,0 +1,23 @@
+.button {
+    margin-bottom: 4rem;
+    border-radius: 1.5rem;
+    
+    &__primary {
+        padding: 0.7rem 5rem;
+        background-color: $color-secondary;
+        color: $color-white;
+        transform: translate(padding 0.5s);
+
+        &--inverted {
+            padding: 0.5rem 5rem;
+            background-color: transparent;
+            border: 0.1rem solid $color-secondary;
+        }
+    }
+
+    &:hover {
+        color: inherit;
+        text-decoration: none;
+        transform: scaleX(1.1);
+    }
+}
