@@ -10,6 +10,9 @@
     </head>
     <body>
     <div class="container">
+        <div class="screen1">
+           <?php require 'components/screen1.php' ?>
+        </div>
         <div class="row">
             <!-- screen2 -->
             <?php require_once 'components/screen2.php' ?>
