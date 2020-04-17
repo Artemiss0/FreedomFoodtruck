@@ -1,12 +1,11 @@
 //components
 @import './components/colors';
+@import './components/headings';
+@import './components/button';
+
 //webparts
 @import './webparts/container';
+@import './webparts/food-items';
 
-
-$color-white: #ffffff;
-$color-black: #000000;
-
-$color-primary: #e0f3ed; 
-$color-secondary: #fa9c92;
-$color-tertiary: #3b3b59;
+//reset
+@import './reset.scss';

@@ -1,9 +1,147 @@
+.title {
+  padding: 2rem 0 3rem;
+}
+.title__center {
+  text-align: center;
+}
+
+.button {
+  margin-bottom: 4rem;
+  border-radius: 1.5rem;
+}
+.button__primary {
+  padding: 0.7rem 5rem;
+  background-color: #E9856E;
+  color: #ffffff;
+  transform: translate(padding 0.5s);
+}
+.button__primary--inverted {
+  padding: 0.5rem 5rem;
+  background-color: transparent;
+  border: 0.1rem solid #E9856E;
+}
+.button:hover {
+  color: inherit;
+  text-decoration: none;
+  transform: scaleX(1.1);
+}
+
 .container {
   width: 100%;
 }
 .container--white {
-  background-color: #000000;
-  height: 50rem;
+  padding: 2rem 0 0 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  height: auto;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.food-items {
+  width: 100%;
+  height: auto;
+}
+.food-items__imageholder {
+  position: relative;
+  width: 100%;
+  height: 10rem;
+  overflow: hidden;
+}
+.food-items__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  bottom: 0;
+}
+.food-items__subtitle {
+  font-size: 1em;
+  line-height: 0.5em;
+  width: 100%;
+  text-align: center;
+}
+.food-items__subtitle--bold {
+  font-weight: bold;
+}
+.food-items__navigation {
+  display: flex;
+  justify-content: space-evenly;
+}
+.food-items__button {
+  background-color: #ffffff;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1.5rem;
+  position: absolute;
+  top: 40%;
+  right: 2.5rem;
+  box-shadow: -3px 2px 5px #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  background-color: #E7EFF3;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  color: #32435A;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 3.7rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2.8rem;
+  line-height: 3rem;
+  font-weight: 800;
+}
+
+p,
+span {
+  font-family: "Muli", sans-serif;
+  color: #32435A;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+ul,
+ol,
+li {
+  font-family: "Muli", sans-serif;
+  color: #32435A;
+}
+
+a {
+  color: #32435A;
+  text-decoration: none;
+}
+
+.wrap {
+  width: 80%;
+  margin: auto;
+}
+
+.section {
+  margin-bottom: 6rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
 }
 
 .center {
