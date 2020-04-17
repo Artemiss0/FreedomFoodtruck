@@ -1,0 +1,11 @@
+//components
+@import './components/colors';
+@import './components/headings';
+@import './components/button';
+
+//webparts
+@import './webparts/container';
+@import './webparts/food-items';
+
+//reset
+@import './reset.scss';
