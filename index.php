@@ -10,7 +10,7 @@
     </head>
     <body>
     <div class="container">
-        <div class="screen1 invisible">
+        <div class="center">
            <?php require 'components/screen1.php' ?>
         </div>
         <div class="row">
