@@ -44,6 +44,11 @@
   text-align: center;
 }
 
+.escargot {
+  height: 50vh;
+  width: auto;
+}
+
 .food-items {
   width: 100%;
   height: auto;
@@ -84,6 +89,15 @@
   top: 45%;
   right: 7rem;
   box-shadow: -3px 2px 5px #000000;
+}
+
+.data {
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 15px;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin: 1rem 0;
 }
 
 * {
