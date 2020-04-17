@@ -6,7 +6,7 @@
         <?php
             for($i = 0; $i < 12; $i++) {
                 echo '
-                <div class="col-sm-3 food-items">
+                <div class="col-sm-4 food-items">
                     <div class="food-items food-items__imageholder">
                         <img class="food-items food-items__image" src="https://cdn.mcdonalds.pl/uploads/20191015150508/01-01-hamburger-singlepage.png" />
                     </div>
@@ -16,7 +16,10 @@
                         </a>
                     </div>
                     <p class="food-items__subtitle">
-                        Double cheeseburger $2.50
+                        Double cheeseburger
+                    </p>
+                    <p class="food-items__subtitle food-items__subtitle--bold">
+                        $2.50
                     </p>
                 </div>
                 ';

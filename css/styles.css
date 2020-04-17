@@ -30,6 +30,7 @@
   width: 100%;
 }
 .container--white {
+  padding: 2rem 0 0 0;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -41,12 +42,11 @@
 .food-items {
   width: 100%;
   height: auto;
-  margin: 2rem 0 0;
 }
 .food-items__imageholder {
   position: relative;
   width: 100%;
-  height: 5rem;
+  height: 10rem;
   overflow: hidden;
 }
 .food-items__image {
@@ -57,9 +57,13 @@
   bottom: 0;
 }
 .food-items__subtitle {
-  font-size: 0.7em;
+  font-size: 1em;
+  line-height: 0.5em;
   width: 100%;
   text-align: center;
+}
+.food-items__subtitle--bold {
+  font-weight: bold;
 }
 .food-items__navigation {
   display: flex;
